@@ -1,0 +1,97 @@
+{
+    "SSP_PERIOD": 90,
+    "OUTPUT_DIR": "Snapshots",
+    "DATA_DIR": "Data",
+    "S3_BUCKET": "",
+    "BACKEND_API_URL": "",
+    "BACKEND_GET_API_KEY": "",
+    "BACKEND_POST_API_KEY": "",
+    "KYC": {
+        "CLIENT_ID": "",
+        "API_URL": "",
+        "API_KEY": ""
+    },
+    "NETWORK": {
+        "API_CALL_DELAY": 1,
+        "MULTICHAIN_API_URL": "https://api.etherscan.io/v2/api",
+        "MULTICHAIN_API_KEY": "",
+        "ETH": {
+            "CHAIN_ID": 1,
+            "RPC_NODES": [
+                "https://site1.moralis-nodes.com/eth/",
+                "https://site2.moralis-nodes.com/eth/",
+                "https://rpc.ankr.com/eth",
+                "https://eth.llamarpc.com",
+                "https://eth.drpc.org",
+                "https://ethereum.blockpi.network/v1/rpc/public",
+                "https://ethereum-rpc.publicnode.com",
+                "https://eth.meowrpc.com",
+                "https://eth-pokt.nodies.app",
+                "https://endpoints.omniatech.io/v1/eth/mainnet/public"
+            ]
+        },
+        "BNB": {
+            "CHAIN_ID": 56,
+            "RPC_NODES": [
+                "https://site1.moralis-nodes.com/bsc/",
+                "https://site2.moralis-nodes.com/bsc/",
+                "https://rpc.ankr.com/bsc",
+                "https://binance.llamarpc.com",
+                "https://bsc.drpc.org",
+                "https://bsc.blockpi.network/v1/rpc/public",
+                "https://bsc-rpc.publicnode.com",
+                "https://bsc.meowrpc.com",
+                "https://bsc-pokt.nodies.app",
+                "https://endpoints.omniatech.io/v1/bsc/mainnet/public"
+            ]
+        },
+        "BASE": {
+            "CHAIN_ID": 8453,
+            "RPC_NODES": [
+                "https://base-mainnet.g.alchemy.com/v2/",
+                "https://rpc.ankr.com/base",
+                "https://base.llamarpc.com",
+                "https://base.drpc.org",
+                "https://base.blockpi.network/v1/rpc/public",
+                "https://base-rpc.publicnode.com",
+                "https://base.meowrpc.com",
+                "https://base-pokt.nodies.app",
+                "https://endpoints.omniatech.io/v1/base/mainnet/public"
+            ]
+        },
+        "ARB": {
+            "CHAIN_ID": 42161,
+            "RPC_NODES": [
+                "https://site1.moralis-nodes.com/arbitrum/",
+                "https://site2.moralis-nodes.com/arbitrum/",
+                "https://rpc.ankr.com/arbitrum",
+                "https://arbitrum.llamarpc.com",
+                "https://arbitrum.drpc.org",
+                "https://arbitrum.blockpi.network/v1/rpc/public",
+                "https://arbitrum-one.publicnode.com",
+                "https://arbitrum.meowrpc.com",
+                "https://arb-pokt.nodies.app",
+                "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+            ]
+        },
+        "AVALANCHE": {
+            "CHAIN_ID": 43114,
+            "RPC_NODES": [
+                "https://avax-mainnet.g.alchemy.com/v2/",
+                "https://rpc.ankr.com/avalanche",
+                "https://avalanche.drpc.org",
+                "https://avalanche.blockpi.network/v1/rpc/public",
+                "https://avalanche-c-chain-rpc.publicnode.com",
+                "https://avax.meowrpc.com",
+                "https://avax-pokt.nodies.app/ext/bc/C/rpc",
+                "https://endpoints.omniatech.io/v1/avax/mainnet/public"
+            ],
+            "API_URL": "https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api",
+            "API_KEY": ""
+        }
+    },
+    "EXCLUDE": [
+        "0x0000000000000000000000000000000000000000",
+        "0x000000000000000000000000000000000000dead"
+    ]
+}

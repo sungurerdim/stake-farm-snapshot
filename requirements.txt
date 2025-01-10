@@ -1,0 +1,6 @@
+boto3
+numpy
+pandas
+requests
+tqdm
+web3
